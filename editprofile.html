@@ -24,17 +24,39 @@
 		</h3>
 	</div>
 	<hr>
-	<div class="login" align="center">
-		<img src="unnamed.png" align="left">
-			<h2>Login</h2>
+	<div class="editprofile" align="left">
+		EDIT PROFILE
+		<hr>
+		<h4>
 			<form>
-  				<input type="text" id="email" name="email" placeholder="Email Address"><br>
- 				<input type="text" id="password" name="password" placeholder="Password"><br><br>
- 				<input type="checkbox" name="remember">&nbsp;Remember me<br>
- 				<button type="login">Login</button>
+				User Information<br><br>
+				<label>Username</label><br>
+  				<input type="text" name="username" placeholder="Enter Username"><br>
+  				<label>Facebook Link</label><br>
+ 				<input type="email" name="fblink" placeholder="Enter Facebook Link"><br>
+ 				<label>About Me</label><br>
+ 				<textarea name="about" rows="4" cols="50"></textarea><br>
+ 				<button type="update-user-info">Update User Information</button>
 			</form>
- 			<h4>Don't have an account?<br></h4>
- 			<a href="register.html"><button type="register">Register</button></a>
+			<hr>
+			<form align="right">
+				Change Email Address<br><br>
+				<label>Email Address</label><br>
+  				<input type="email" name="email" placeholder="Enter Email Address"><br>
+ 				<button type="update-email">Update Email</button>
+			</form>
+			<hr>
+			<form align="right">
+				Change Password<br><br>
+				<label>Current Password</label><br>
+  				<input type="password" name="password" placeholder="Enter Password"><br>
+  				<label>New Password</label><br>
+ 				<input type="password" name="newpass" placeholder="Enter New Password"><br>
+ 				<label>Confirm Password</label><br>
+ 				<input type="password" name="confirmpass" placeholder="Confirm Password"><br>
+ 				<button type="update-password">Update Password</button>
+			</form>
+		</h4>
 	</div>
 	<hr>
 	<div class="bot-nav" align="center">
