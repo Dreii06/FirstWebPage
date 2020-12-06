@@ -1,0 +1,310 @@
+body {
+  margin: 0;
+}
+
+.top-nav {
+  background-color: #183446;
+  overflow: hidden;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 28px;
+  color: #D29957;
+}
+
+p {
+  font-size: 20px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #183446;
+}
+
+li {
+  float: left;
+}
+
+li.title a {
+  font-family: Book Antiqua;
+  font-weight: bold;
+  font-size: 20px;
+  width: 50%;
+  display: block;
+  text-align: center;
+  padding: 17px 12px;
+  color: #D29957;
+  text-decoration: none;
+}
+
+ul.feature li a {
+  display: block;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  padding: 29px;
+  text-decoration: none;
+}
+
+ul.feature li a:hover {
+  background-color: #132733;
+}
+
+li img{
+    display:inline-block;
+    height: 75px;
+}
+
+.tier-lists {
+  background-color: #162E3D;
+  overflow: hidden;
+}
+
+#text-tierlists {
+  font-family: Lucida Sans;
+  font-weight: bold;
+  color: #D29957;
+  margin-left: 50px;
+}
+
+.lists-container {
+  background-color: #132733;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 25px;
+  padding: 35px;
+}
+
+.hero-pic {
+  border-radius: 50%;
+  float: left;
+}
+
+.desc {
+  font-family: Lucida Sans;
+  font-size: 20px;
+  color: #D29957;
+  padding: 25px 150px;
+}
+
+#link {
+  color: black;
+  text-decoration: none;
+}
+
+.info {
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  margin-left: 350px;
+  margin-right: 350px;
+}
+
+.info-title {
+  font-family: Lucida Sans;
+  font-weight: bold;
+  color: #D29957;
+}
+
+.btn-create-tierlists {
+  font-family: Lucida Sans;
+  font-weight: bold;
+  color: #132733;
+  border-radius: 50px;
+  height: 50px;
+  width: 170px;
+  margin-bottom: 15px;
+}
+
+.bot-nav {
+  background-color: #707070;
+  overflow: hidden;
+}
+
+.about {
+  font-family: Helvetica;
+  margin: 25px;
+  float: left;
+}
+
+.socials {
+  margin: 20px;
+  float: right;
+}
+
+.btnfacebook {
+  background:url(facebook.png) no-repeat;
+  cursor: pointer;
+  border: none;
+}
+
+.btntwitter {
+  background:url(twitter.png) no-repeat;
+  cursor: pointer;
+  border: none;
+}
+
+.btndiscord {
+  background:url(discord.png) no-repeat;
+  cursor: pointer;
+  border: none;
+}
+
+.center-nav {
+  background-color: #162E3D;
+  overflow: hidden;
+  height: 600px;
+}
+
+#username {
+  background: url(username.png) white no-repeat 5px center;
+  width: 200px;
+  height: 30px;
+  margin: 10px;
+  padding-left: 25px;
+}
+
+#password {
+  background: url(password.png) white no-repeat 5px center;
+  width: 200px;
+  height: 30px;
+  margin: 10px;
+  padding-left: 25px;
+}
+
+#txtbox {
+  width: 200px;
+  height: 30px;
+  margin: 10px;
+  background-color: #264E67;
+}
+
+#txtarea {
+  margin-top: 15px;
+  margin-bottom: 10px;
+  background-color: #264E67;
+}
+
+.btnblue {
+  font-family: Lucida Sans;
+  font-size: 20px;
+  color: white;
+  background-color: #2B84DE;
+  border-radius: 15px;
+  width: 60%;
+  height: 30px;
+}
+
+.btnwhite {
+  font-family: Lucida Sans;
+  font-size: 20px;
+  border-radius: 15px;
+  width: 60%;
+  height: 30px;
+}
+
+.about-info {
+  font-size: 25px;
+  float: left;
+  border-radius: 15px;
+  width: 500px;
+  color: white;
+  margin-left: 100px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  padding: 15px;
+}
+
+.about-img {
+  float: right;
+  margin: 50px;
+  border-radius: 20px;
+  width: 47%;
+  height: 65%;
+}
+
+.contact-details {
+  float: left;
+  border-radius: 15px;
+  width: 450px;
+  height: 600px;
+  background-color: #183446;
+  color: white;
+  margin-left: 100px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  padding: 15px;
+}
+
+#hero-pic {
+  display: block;
+  width: 50px;
+  height: auto;
+}
+
+.builds-container {
+  color: white;
+  background-color: #132733;
+  margin: 20px;
+  padding: 25px;
+  height: 500px;
+}
+
+.hero-details {
+  margin-left: 80px;
+}
+
+.hero-container {
+  position: absolute;
+  left: 5%;
+  top: 30%;
+}
+
+.build-container {
+  position: absolute;
+  left: 35%;
+  top: 20%;
+}
+
+.emblem-container {
+  position: absolute;
+  top: 20%;
+  right: 200px;
+  width: 300px;
+}
+
+.spell-container {
+  position: absolute;
+  top: 50%;
+  right: 200px;
+  width: 300px;
+}
+
+.feedback-nav {
+  background-color: #162E3D;
+  overflow: hidden;
+  height: 700px;
+}
+
+.heroes-nav {
+  background-color: #162E3D;
+  overflow: hidden;
+  height: auto;
+  padding: 20px;
+}
+
+.heroes-container {
+  background-color: #132733;
+  margin: 15px;
+  padding: 15px;
+  height: auto;
+}
