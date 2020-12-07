@@ -236,14 +236,12 @@ li img{
   margin-bottom: 20px;
   margin-right: 20px;
   padding: 15px;
-  background-color: white;
 }
 
 .about-img {
-  background-color: white;
   float: right;
-  margin: 56px;
-  margin-right: 100px;
+  margin-top: 50px;
+  margin-right: 80px;
   border-radius: 20px;
   width: 47%;
   height: 65%;
