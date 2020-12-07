@@ -216,7 +216,7 @@ li img{
   border-radius: 15px;
   width: 500px;
   color: white;
-  margin-left: 100px;
+  margin-left: 70px;
   margin-top: 20px;
   margin-bottom: 20px;
   margin-right: 20px;
@@ -225,7 +225,8 @@ li img{
 
 .about-img {
   float: right;
-  margin: 50px;
+  margin: 56px;
+  margin-right: 80px;
   border-radius: 20px;
   width: 47%;
   height: 65%;
