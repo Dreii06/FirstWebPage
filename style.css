@@ -2,6 +2,21 @@ body {
   margin: 0;
 }
 
+@font-face {
+    font-family: titleFont;
+    src: url(book-antiqua.ttf);
+}
+
+@font-face {
+  font-family: listFont;
+  src: url(Lucida Sans.ttf);
+}
+
+@font-face {
+  font-family: aboutFont;
+  src: url(Helvetica.ttf);
+}
+
 .top-nav {
   background-color: #183446;
   overflow: hidden;
@@ -32,7 +47,7 @@ li {
 }
 
 li.title a {
-  font-family: Book Antiqua;
+  font-family: titleFont;
   font-weight: bold;
   font-size: 20px;
   width: 50%;
@@ -67,7 +82,7 @@ li img{
 }
 
 #text-tierlists {
-  font-family: Lucida Sans;
+  font-family: listFont;
   font-weight: bold;
   color: #D29957;
   margin-left: 50px;
@@ -88,7 +103,7 @@ li img{
 }
 
 .desc {
-  font-family: Lucida Sans;
+  font-family: listFont;
   font-size: 20px;
   color: #D29957;
   padding: 25px 150px;
@@ -108,13 +123,13 @@ li img{
 }
 
 .info-title {
-  font-family: Lucida Sans;
+  font-family: listFont;
   font-weight: bold;
   color: #D29957;
 }
 
 .btn-create-tierlists {
-  font-family: Lucida Sans;
+  font-family: listFont;
   font-weight: bold;
   color: #132733;
   border-radius: 50px;
@@ -129,7 +144,7 @@ li img{
 }
 
 .about {
-  font-family: Helvetica;
+  font-family: aboutFont;
   margin: 25px;
   float: left;
 }
@@ -193,7 +208,7 @@ li img{
 }
 
 .btnblue {
-  font-family: Lucida Sans;
+  font-family: listFont;
   font-size: 20px;
   color: white;
   background-color: #2B84DE;
@@ -203,7 +218,7 @@ li img{
 }
 
 .btnwhite {
-  font-family: Lucida Sans;
+  font-family: listFont;
   font-size: 20px;
   border-radius: 15px;
   width: 60%;
