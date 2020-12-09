@@ -22,7 +22,7 @@
 		<div class="lists-container">
 			<?php
 			$newheroes = array("BENEDETTA", "BRODY", "BARATS", "KHALEED", "YU ZHONG", "LUO YI");
-			$roles = array("Assassin", "Marksman", "Tank", "Support", "Mage", "Fighter")
+			$roles = array("Assassin", "Marksman", "Tank", "Support", "Mage", "Fighter");
 			<div>
 				<div>
 					<img src="benedetta.png" class="hero-pic">
