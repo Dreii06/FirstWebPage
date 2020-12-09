@@ -8,11 +8,13 @@ function validateForm() {
 	}
 	else if (email == "") {
 		alert("Please enter your email address.");
+		return false;
 	}
 	else if (mess == "") {
 		alert("Please enter your feedback about the website.");
+		return false;
 	}
-	else if (name == "" || email == "" || mess == "") {
+	else if (name == "" && email == "" && mess == "") {
 		alert("Please enter all required information.");
 	}
 	else {
