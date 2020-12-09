@@ -84,9 +84,9 @@
 			<span>2020 GLORYGUIDES.COM - ALL RIGHTS RESERVED</span>
 		</div>
 		<div class="socials">
-			<button class="btnfacebook" type="facebook" onclick="location.href='facebook.com';"><img src="facebook.png" width="25" height="25"></button>
-			<button class="btntwitter" type="twitter" onclick="location.href='twitter.com';"><img src="twitter.png" width="25" height="25"></button>
-			<button class="btndiscord" type="discord" onclick="location.href='discord.com';"><img src="discord.png" width="25" height="25"></button>
+			<button class="btnfacebook" type="facebook" onclick="location.href='https://facebook.com';"><img src="facebook.png" width="25" height="25"></button>
+			<button class="btntwitter" type="twitter" onclick="location.href='https://twitter.com';"><img src="twitter.png" width="25" height="25"></button>
+			<button class="btndiscord" type="discord" onclick="location.href='https://discord.com';"><img src="discord.png" width="25" height="25"></button>
 		</div>
 	</div>
 </body>
