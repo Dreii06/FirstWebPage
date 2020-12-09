@@ -1,0 +1,21 @@
+function validateForm() {
+	var name = document.forms["feedbackForm"]["uname"].value;
+	var email = document.forms["feedbackForm"]["uemail"].value;
+	var mess = document.forms["feedbackForm"]["umess"].value;
+	if (name == "") {
+		alert("Please enter your name.");
+		return false;
+	}
+	else if (email == "") {
+		alert("Please enter your email address.");
+	}
+	else if (mess == "") {
+		alert("Please enter your feedback about the website.");
+	}
+	else if (name == "" || email == "" || mess == "") {
+		alert("Please enter all required information.");
+	}
+	else {
+		alert("Thank you for sending us your feedback!");
+	}
+}
