@@ -2,7 +2,11 @@ function validateForm() {
 	var name = document.forms["feedbackForm"]["uname"].value;
 	var email = document.forms["feedbackForm"]["uemail"].value;
 	var mess = document.forms["feedbackForm"]["umess"].value;
-	if (name == "") {
+	if (name == "" && email == "" && mess == "") {
+		alert("Please enter all required information.");
+		return false;
+	}
+	else if (name == "") {
 		alert("Please enter your name.");
 		return false;
 	}
@@ -14,10 +18,8 @@ function validateForm() {
 		alert("Please enter your feedback about the website.");
 		return false;
 	}
-	else if (name == "" && email == "" && mess == "") {
-		alert("Please enter all required information.");
-	}
 	else {
 		alert("Thank you for sending us your feedback!");
+		return true;
 	}
 }
