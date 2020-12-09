@@ -2,6 +2,7 @@
 <html>
 <head>
 <link rel="stylesheet" href="style.css">
+<script type="text/javascript" src="main.js"></script>
 	<title>Glory Guide</title>
 </head>
 <body>
@@ -75,7 +76,7 @@
 	<div class="info">
 		<h3 class="info-title">THESE CAN HELP YOU REACH THE TOP!</h3>
 		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sollicitudin, ligula ornare commodo tristique, enim purus imperdiet diam, a ultricies nibh lectus in risus. Maecenas lobortis sollicitudin mi sit amet luctus. Curabitur vitae cursus lacus. Nullam id metus eget mauris finibus porta at vel turpis. Praesent at diam bibendum justo auctor suscipit quis sollicitudin tortor.</p>
-		<button class="btn-create-tierlists">VIEW TIER LISTS</button>
+		<button class="btn-create-tierlists" onclick="window.location.href='tierlists.html'">VIEW TIER LISTS</button>
 	</div>
 	<div class="bot-nav">
 		<div class="about">
