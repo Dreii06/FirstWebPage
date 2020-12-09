@@ -8,7 +8,7 @@
 	<div class="top-nav">
 		<ul>
 			<li><img src="logo.png"/></li>
-			<li class="title"><a href="index.html">GLORY GUIDE</a></li>
+			<li class="title"><a href="index.php">GLORY GUIDE</a></li>
 		</ul>
 		<ul class="feature">
 			<li><a href="heroes.html">HEROES</a></li>
