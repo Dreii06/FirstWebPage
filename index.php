@@ -76,7 +76,7 @@
 	</div>
 	<div class="info">
 		<h3 class="info-title">THESE CAN HELP YOU REACH THE TOP!</h3>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sollicitudin, ligula ornare commodo tristique, enim purus imperdiet diam, a ultricies nibh lectus in risus. Maecenas lobortis sollicitudin mi sit amet luctus. Curabitur vitae cursus lacus. Nullam id metus eget mauris finibus porta at vel turpis. Praesent at diam bibendum justo auctor suscipit quis sollicitudin tortor.</p>
+		<p>These guides will help you obtain great performance in your ranked games every now as you visit this website and check the tier lists and the builds of each hero. Do you want to reach the true potential of your gaming? Take your time to visit our guides!</p>
 		<button class="btn-create-tierlists" onclick="window.location.href='tierlists.html'">VIEW TIER LISTS</button>
 	</div>
 	<div class="bot-nav">
