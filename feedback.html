@@ -13,8 +13,8 @@
 			<li class="title"><a href="index.php">GLORY GUIDE</a></li>
 		</ul>
 		<ul class="feature">
-			<li><a href="heroes.html">HEROES</a></li>
-			<li><a href="tierlists.html">TIER LISTS</a></li>
+			<li><a href="heroes.php">HEROES</a></li>
+			<li><a href="tierlists.php">TIER LISTS</a></li>
 			<li><a href="about.html">ABOUT</a></li>
 			<li><a href="feedback.html">HELP</a></li>
 		</ul>
