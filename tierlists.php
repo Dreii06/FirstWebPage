@@ -26,7 +26,7 @@
 			$tierlists = array("S+ Tier Heroes", "S Tier Heroes", "A Tier Heroes");
 			$heroes = array("ALICE", "ESMERALDA", "HELCURT", "LANCELOT", "LING", "YU ZHONG");
 			echo "<div>";
-			echo "<h2 id="text-tierlists">" . $tierlists[0] . "</h2>";
+			//echo "<h2 id="text-tierlists">" . $tierlists[0] . "</h2>";
 			echo "<a href=\"ling.html\" id=\"link\">";
 			echo "<div>";
 			echo "<img src=\"ling.png\" class=\"hero-pic\">";
@@ -45,7 +45,7 @@
 			echo "</a>";
 			echo "</div>";
 			echo "<div>";
-			echo "<h2 id="text-tierlists">" . $tierlists[1] . "</h2>";
+			//echo "<h2 id="text-tierlists">" . $tierlists[1] . "</h2>";
 			echo "<a href="alice.html" id="link">";
 			echo "<div>";
 			echo "<img src="alice.png" class="hero-pic">";
@@ -64,7 +64,7 @@
 			echo "</a>";
 			echo "</div>";
 			echo "<div>";
-			echo "<h2 id="text-tierlists">" . $tierlists[2] . "</h2>";
+			//echo "<h2 id="text-tierlists">" . $tierlists[2] . "</h2>";
 			echo "<a href="helc.html" id="link">";
 			echo "<div>";
 			echo "<img src="helcurt.png"  class="hero-pic">";
