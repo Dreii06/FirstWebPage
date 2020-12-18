@@ -3,6 +3,7 @@
 <head>
 <link rel="stylesheet" href="style.css">
 <link rel="icon" type="png" href="logo.png">
+<script type="text/javascript" src="main.js"></script>
 	<title>Glory Guide</title>
 </head>
 <body>
@@ -26,14 +27,14 @@
 			<p>If you have any concerns regarding the builds, tier lists, and the heroes that are in this website, feel free to contact and email us at:</p>
 			<p>GloryGuides@gmail.com</p><hr>
 			<p>Or you can send us a report through here.</p>
-			<form action="contact.php" name="feedbackForm">
+			<form name="feedbackForm" onclick="validateForm()">
 				<span>Name:</span>
-  				<input type="text" name="uname" id="txtbox"><br>
+  				<input type="text" id="txtbox" name="uname"><br>
   				<span>Email:</span>
- 				<input type="text" name="uemail" id="txtbox"><br>
+ 				<input type="text" id="txtbox" name="uemail"><br>
  				<span>Message:</span><br>
  				<textarea name="umess" id="txtarea" rows="7" cols="35"></textarea>
- 				<input type="submit" name="submit" value="Submit" class="btnblue">
+ 				<button class="btnblue" type="submit">Submit</button>
 			</form>
 		</div>
 	</div>
