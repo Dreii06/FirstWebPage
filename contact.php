@@ -10,9 +10,7 @@
 		$headers="From: ".$email;
 
 		if(mail($to, $subject, $message, $headers)){
-			echo "<script type='text/javascript'>alert('Thank you for sending us your feedback!')
-				window.history.go(-1);
-			</script>";
+			echo "<h1>Sent Successfully! Thank you"." ".$name.", We will contact you shortly!</h1>";
 		}
 		else{
 			echo "Please input all required information!";
