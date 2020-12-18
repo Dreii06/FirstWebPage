@@ -6,7 +6,7 @@ $mess = $_POST['umess'];
 
 $email_to = 'mecm06.mm@gmail.com';
 $email_subj = "Feedback Message";
-$email_body = "Feedback from $name.\n. Message: \n $mess."
+$email_body = "Feedback from $name.\n. Message: \n $mess.";
 
 if (empty($name) || empty($email) || empty($mess)) {
 	echo('Please enter all required information!');
