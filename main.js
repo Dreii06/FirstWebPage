@@ -28,9 +28,9 @@ function sendToMail() {
 	if (validateForm()) // Calling validation function
 	{
     var link = "mailto:mecm06.mm@gmail.com"
-             + "?cc=" + encodeURIComponent(document.getElementsByName("uemail").value)
+             + "?cc=" + encodeURIComponent(document.getElementsById('uemail').value)
              + "&subject=" + encodeURIComponent("Feedback Message")
-             + "&body=" + encodeURIComponent(document.getElementsByName("umess").value);
+             + "&body=" + encodeURIComponent(document.getElementById('umess').value);
 	alert("Thank you for sending us your feedback!");
     window.location.href = link;
 	}

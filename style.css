@@ -194,14 +194,14 @@ li img{
   padding-left: 25px;
 }
 
-#txtbox {
+.txtbox {
   width: 200px;
   height: 30px;
   margin: 10px;
   background-color: #264E67;
 }
 
-#txtarea {
+.txtarea {
   margin-top: 15px;
   margin-bottom: 10px;
   background-color: #264E67;
