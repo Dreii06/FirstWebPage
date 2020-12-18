@@ -1,7 +1,7 @@
 function validateForm() {
-	var name = document.getElementById('uname').value;
-	var email = document.getElementById('uemail').value;
-	var mess = document.getElementById('umess').value;
+	var name = document.getElementById("uname").value;
+	var email = document.getElementById("uemail").value;
+	var mess = document.getElementById("umess").value;
 	if (name == "" && email == "" && mess == "") {
 		alert("Please enter all required information.");
 		return false;
@@ -28,9 +28,9 @@ function sendToMail() {
 	if (validateForm())
 	{
     var link = "mailto:mecm06.mm@gmail.com"
-             + "?cc=" + encodeURIComponent(document.getElementById('uemail').value)
+             + "?cc=" + encodeURIComponent(document.getElementById("uemail").value)
              + "&subject=" + encodeURIComponent("Feedback Message")
-             + "&body=" + encodeURIComponent(document.getElementById('umess').value);
+             + "&body=" + encodeURIComponent(document.getElementById("umess").value);
 	alert("Thank you for sending us your feedback!");
     window.location.href = link;
 	}
