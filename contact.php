@@ -1,15 +1,21 @@
 <?php
+	if(isset($_POST['submit'])){
+		$name=$_POST['uname'];
+		$email=$_POST['uemail'];
+		$msg=$_POST['umess'];
 
-$name = $_POST['uname'];
-$email = $_POST['uemail'];
-$mess = $_POST['umess'];
+		$to='mecm06.mm@gmail.com'; // Receiver Email ID, Replace with your email ID
+		$subject='Feedback Message';
+		$message="Name :".$name."\n"."Wrote the following :"."\n\n".$msg;
+		$headers="From: ".$email;
 
-$email_to = 'mecm06.mm@gmail.com';
-$email_subj = "Feedback Message";
-$email_body = "Feedback from $name.\n. Message: \n $mess.";
-
-mail($email_to, $email_subj, $email_body);
-echo "<script type='text/javascript'>alert('Thank you for sending us your feedback!')
-	window.history.go(-1);
-</script>";
+		if(mail($to, $subject, $message, $headers)){
+			echo "<script type='text/javascript'>alert('Thank you for sending us your feedback!')
+				window.history.go(-1);
+			</script>";
+		}
+		else{
+			echo "Please input all required information!";
+		}
+	}
 ?>
