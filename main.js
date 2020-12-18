@@ -23,7 +23,7 @@ function validateForm() {
 	}
 }
 
-function sendToMail() {
+function submitToMail() {
 	
 	if (validateForm())
 	{
