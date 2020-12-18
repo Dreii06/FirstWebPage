@@ -19,12 +19,19 @@ function validateForm() {
 		return false;
 	}
 	else {
-		var link = "mailto:mecm06.mm@gmail.com"
+		return true;
+	}
+}
+
+function sendToMail() {
+	
+	if (validateForm()) // Calling validation function
+	{
+    var link = "mailto:mecm06.mm@gmail.com"
              + "?cc=" + encodeURIComponent(document.getElementById('uemail').value)
              + "&subject=" + encodeURIComponent("Feedback Message")
              + "&body=" + encodeURIComponent(document.getElementById('umess').value);
-		alert("Thank you for sending us your feedback!");
-    	window.location.href = link;
-		return true;
+	alert("Thank you for sending us your feedback!");
+    window.location.href = link;
 	}
 }
